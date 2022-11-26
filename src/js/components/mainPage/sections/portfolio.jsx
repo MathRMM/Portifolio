@@ -1,13 +1,16 @@
 import { Carousel } from "bootstrap";
 import { useEffect } from "react";
 
-import myPhoto from "../../../../images/myphoto.jpeg";
-import urban from "../../../../images/urban.png";
+import urban from "../../../../images/Frame.png";
 
 export default function Portfolio() {
   useEffect(() => {
     new Carousel("#carouselPortfolio");
   });
+
+  function redirectToLink(link){
+    window.open(link, "_blank")
+  }
 
   return (
     <section id="portfolio">
@@ -35,20 +38,42 @@ export default function Portfolio() {
             ></button>
           </div>
           <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="10000">
-              <img src={urban} className="d-block w-100" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p></p>
+            <div className="carousel-item active" data-bs-interval="10000" onClick={()=> redirectToLink("https://urbanskateshop.vercel.app/")}>
+              <div className="row">
+                <div className="col-md-4" id="image">
+                  <img src={urban} className="d-block" alt="..." />
+                </div>
+                <div className="col-md-8 onlyDesk">
+                <h3> Urban Skate Shop</h3>
+                  <p>Trazendo a indentidade que envolve o skate, a loja foi toda planejada para trazer novas
+                    peças e roupas para extrair o maximo das manobras com estilo. 
+                  </p>
+
+                  <p>
+                  O site nasce com o React
+                    como base para seu Front-End, trazendo um design todo original. Com ele vem um Back-End responsavel
+                    pela toda regra de negocio e armazenamento de produtos e compras.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="10000">
-              <img src={urban} className="d-block w-100 img-fluid" alt="..." />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
+            <div className="carousel-item active" data-bs-interval="10000">
+              <div className="row">
+                <div className="col-md-4" id="image">
+                  <img src={urban} className="d-block" alt="..." />
+                </div>
+                <div className="col-md-8 onlyDesk">
+                  <h3> Urban Skate Shop</h3>
+                  <p>Trazendo a indentidade que envolve o skate, a loja foi toda planejada para trazer novas
+                    peças e roupas para extrair o maximo das manobras com estilo. 
+                  </p>
+
+                  <p>
+                  O site nasce com o React
+                    como base para seu Front-End, trazendo um design todo original. Com ele vem um Back-End responsavel
+                    pela toda regra de negocio e armazenamento de produtos e compras.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

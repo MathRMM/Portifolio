@@ -21,7 +21,7 @@ export default function Skills() {
           </div>
           <div className="col-md-6">
             {progressBar("noSQL(MongoDB)", 60)}
-            {progressBar("SQL", 50)}
+            {progressBar("SQL(PostgresSQL)", 50)}
             {progressBar("NodeJS(Express)", 65)}
             {progressBar("GIT", 70)}
             {progressBar("Jest", 30)}
