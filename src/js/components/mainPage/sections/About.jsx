@@ -7,14 +7,10 @@ export default function About(){
             <div className="col-md-12" data-anime='down'>
               <h2 className="pt-3">Sobre</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
-                earum nulla vel consequatur necessitatibus laborum aliquid
-                minima adipisci voluptatem asperiores, est soluta, cupiditate
-                deserunt tempora corrupti mollitia odio. Deleniti, saepe? Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                repellendus? Dolorem deserunt qui sed laboriosam eaque? Quo
-                error fuga deleniti culpa libero, voluptatibus dolorum incidunt
-                commodi facere mollitia corporis inventore.
+                No último ano me descobri como um solcionador de problemas, com isso me indentifiquei com a carreira
+                de desenvolvedor Full-Stack, na qual utilizo o JavaScript como linguagem para minhas criações e soluções.
+                Durante esse trajeto de estudos realizei diversos projetos para me aprimorar na área, criando um hábito de
+                sempre colocar em pratica os novos assuntos aprendidos. 
               </p>
             </div>
           </div>
@@ -31,10 +27,9 @@ export default function About(){
             <div className="col-md-8 mt-4" data-anime='right'>
               <h3>Estudante</h3>
               <p>
-                Atualmente estudo Licenciatura em Ciências Exatas na
-                Universidade de São Paulo mas se descobrindo como desenvolvedor
-                web, desenvolvendo programas Full-Stacks com JavaScript no
-                front-end e no back-end, utilizando bancos de dados SQL e noSQL.
+                Antes de ser desenvolvedor estudei ciencias físicas e biomolecures na Universidade de São Paulo,
+                onde eu tive o meu primeiro contato com a programção em uma das matérias. Atualmente continuo com minha vontante de ter um
+                diploma, mas visando cursos como Sistema de Informação ou Ciência da Computação para me aprofundar mais em minha carreira.
               </p>
               <div className="row">
                 <ul className="list-group list-group-flush col-md-6 fs-5">
@@ -56,7 +51,7 @@ export default function About(){
                     Hobby: <span> Ciclismo e fotografia</span>
                   </li>
                   <li className="list-group-item">
-                    Interesses: <span> Aventuras ao ar livre</span>
+                    Interesses: <span> Avanços Tecnologicos</span>
                   </li>
                   <li className="list-group-item">
                     Profissão: <span> Estudante</span>
