@@ -8,7 +8,7 @@ export default function About(){
               <h2 className="pt-3">Sobre</h2>
               <p>
                 No último ano me descobri como um solucionador de problemas, com isso me indentifiquei com a carreira
-                de desenvolvedor Full-Stack, na qual utilizo o JavaScript como linguagem para minhas criações e soluções.
+                de desenvolvedor Full-Stack na qual utilizo o JavaScript como linguagem para as minhas criações e soluções.
                 Durante esse trajeto de estudos realizei diversos projetos para me aprimorar na área, criando um hábito de
                 sempre colocar em pratica os novos assuntos aprendidos. 
               </p>
@@ -34,7 +34,7 @@ export default function About(){
               <div className="row">
                 <ul className="list-group list-group-flush col-md-6 fs-5">
                   <li className="list-group-item">
-                    Niver: <span> 09 de Janeiro de 2000</span>
+                    Niver: <span> 09 de Janeiro</span>
                   </li>
                   <li className="list-group-item">
                     Idade: <span> 22 Anos</span>
