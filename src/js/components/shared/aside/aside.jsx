@@ -1,6 +1,6 @@
 import { useEffect, useRef, StrictMode } from "react";
 
-import myPhoto from '../../../../images/myphoto.jpeg'
+import myPhoto from '../../../../images/a.jpg'
 import "./aside.style.css";
 
 export default function Aside() {

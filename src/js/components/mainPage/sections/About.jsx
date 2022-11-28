@@ -1,4 +1,4 @@
-import myPhoto from "../../../../images/myphoto.jpeg";
+import myPhoto from "../../../../images/a.jpg";
 
 export default function About(){
     return(
