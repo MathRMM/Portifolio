@@ -7,10 +7,10 @@ export default function About(){
             <div className="col-md-12" data-anime='down'>
               <h2 className="pt-3">Sobre</h2>
               <p>
-                No último ano me descobri como um solucionador de problemas, com isso me indentifiquei com a carreira
-                de desenvolvedor Full-Stack na qual utilizo o JavaScript como linguagem para as minhas criações e soluções.
-                Durante esse trajeto de estudos realizei diversos projetos para me aprimorar na área, criando um hábito de
-                sempre colocar em pratica os novos assuntos aprendidos. 
+              No último ano me descobri como um solucionador de problemas, com isso me identifiquei com a carreira
+              de desenvolvedor Full-Stack na qual utilizo o JavaScript como linguagem para as minhas criações e soluções.
+              Durante esse trajeto de estudos realizei diversos projetos para me aprimorar na área, criando um hábito desempre 
+              colocar em prática os novos assuntos aprendidos.
               </p>
             </div>
           </div>
@@ -27,9 +27,9 @@ export default function About(){
             <div className="col-md-8 mt-4" data-anime='right'>
               <h3>Estudante</h3>
               <p>
-                Antes de ser desenvolvedor estudei ciencias físicas e biomolecures na Universidade de São Paulo,
-                onde eu tive o meu primeiro contato com a programção em uma das matérias. Atualmente continuo com minha vontante de ter um
-                diploma, mas visando cursos como Sistema de Informação ou Ciência da Computação para aprofundar ainda mais em minha carreira.
+              Antes de ser desenvolvedor, estudei Ciências Físicas e Biomoleculares na Universidade de São Paulo,
+              onde tive o meu primeiro contato com a programação. Atualmente continuo com a minha vontade de ter um
+              diploma, visando cursos como Sistema de Informação ou Ciência da Computação, para aprofundar ainda mais em minha carreira.
               </p>
               <div className="row">
                 <ul className="list-group list-group-flush col-md-6 fs-5">

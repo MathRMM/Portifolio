@@ -121,6 +121,7 @@ section#about .container>hr {
 
 #carouselPortfolio .carousel-inner .row img{
     max-height: 100%;
+    max-width: 100%;
     margin: auto auto;
 }
 
@@ -190,19 +191,9 @@ section#about .container>hr {
     [data-anime="right"] {
         transform: translate3d(0, 100%, 0);
     }
-
-    .onlyDesk{
-        grid-column-start: 6;
-        grid-column-end: 12;
-    }
-
-    #image{
-        grid-column-start: 1;
-        grid-column-end: 6;
-    }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 767px) {
 
     .onlyDesk{
         display: none;

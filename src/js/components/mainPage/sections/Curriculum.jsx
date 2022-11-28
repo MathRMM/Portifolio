@@ -15,9 +15,9 @@ export default function Curriculum() {
                 <em>Driven</em>
               </p>
               <p>
-                Curso voltado a programação de desenvolvimento web afim de atender as
-                diversas demandas de uma corporação, sendo estudado as áres de front-end,
-                back-end e soft-skills com uma carga de 1200 horas de aulas teóricas e praticas.
+              Curso voltado a programação de desenvolvimento web de modo a atender as
+                diversas demandas de uma corporação, estudado as áreas de front-end,
+                back-end e soft-skills com uma carga de 1200 horas de aulas teóricas e práticas.
               </p>
             </div>
 
@@ -28,9 +28,9 @@ export default function Curriculum() {
                 <em>Instito de Física de São Carlos / Universidade de São Paulo</em>
               </p>
               <p>
-                Recebi conceitos e técnicas sobre a física teorica e biologia molecular para
-                contribuir nas inovoções da tecnologia focados principalmente na área da Saúde.
-                Porem cursei até o 5º período pois não me indetifiquei com a área da física
+                Recebi conceitos e técnicas sobre a física teórica e biologia molecular para
+                contribuir nas inovações da tecnologia focados na área da Saúde.
+                Porem cursei até o 5º período, pois não me identifiquei com a área da física
                 e me descobri como desenvolvedor de software.
               </p>
             </div>
@@ -45,11 +45,11 @@ export default function Curriculum() {
               <h5>2019 - 2020</h5>
               <p>
                 <em>Fundação de Amparo à Pesquisa do Estado de São Paulo/ 
-                    Instituto de Física SãoCarlos.</em>
+                    Instituto de Física São Carlos.</em>
               </p>
               <p>
-                Fui monitor do jardim medicinal com a função de realizar visitas guidas e
-                atualização dos materiais disponivel, trazendo novas fotos e pesquisas relacionadas
+                Fui monitor do jardim medicinal com a função de realizar visitas guiadas e
+                atualização dos materiais disponíveis, trazendo novas fotos e pesquisas relacionadas
                 com as plantas medicinais presentes no jardim. 
               </p>
             </div>
