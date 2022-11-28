@@ -9,7 +9,7 @@ export default function About(){
               <p>
               No último ano me descobri como um solucionador de problemas, com isso me identifiquei com a carreira
               de desenvolvedor Full-Stack na qual utilizo o JavaScript como linguagem para as minhas criações e soluções.
-              Durante esse trajeto de estudos realizei diversos projetos para me aprimorar na área, criando um hábito desempre 
+              Durante esse trajeto de estudos realizei diversos projetos para me aprimorar na área, criando um hábito de sempre 
               colocar em prática os novos assuntos aprendidos.
               </p>
             </div>
