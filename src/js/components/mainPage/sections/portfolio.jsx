@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import urban from "../../../../images/Urban.png";
 import MyWallet from "../../../../images/MyWallet.png";
 import linkr from "../../../../images/linkr.png";
+import chatUol from "../../../../images/chatUol.png"
 
 export default function Portfolio() {
   useEffect(() => {
@@ -43,6 +44,12 @@ export default function Portfolio() {
               data-bs-target="#carouselPortfolio"
               data-bs-slide-to="2"
               aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselPortfolio"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
             ></button>
           </div>
           <div className="carousel-inner">
@@ -149,6 +156,38 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
+
+            <div
+              className="carousel-item"
+              data-bs-interval="20000"
+              onClick={() => redirectToLink("https://mathrmm.github.io/Test_front_chat/")}
+            >
+              <div className="row">
+                <div className="col-md-4" id="image">
+                  <img src={chatUol} className="d-block" alt="..." />
+                </div>
+                <div className="col-md-8 onlyDesk">
+                  <h2 className="mb-4"> Chat Uol </h2>
+                  <p>
+                    Chato UOL foi criado no intuito de iniciar o aprendizado em
+                    Back-end, usando os primeiros conceitos sobre o express e 
+                    MongoDb.
+                  </p>
+
+                  <p>
+                    Nele além da implentação do armazenamento de dados, foi criado um
+                    sistema de sessão, onde que se o úsuario entrar ou sair da sala 
+                    irá aparecer uma notificação para todos avisando sobre o status.
+                  </p>
+
+                  <p>
+                    Também foi criado um metodo de conversa privada, podendo selecionar 
+                    o nome do úsuario que deseja enviar a mensagem.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
           <button
             className="carousel-control-prev"
