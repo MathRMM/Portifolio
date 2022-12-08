@@ -6,6 +6,10 @@ html,body{
     height: 100vh;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 a{
     text-decoration: none;
 }
